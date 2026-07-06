@@ -123,6 +123,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Instructor\InstructorDashboard.aspx" />
+    <Content Include="Luqman Test.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -225,6 +226,13 @@
     </Compile>
     <Compile Include="Instructor\InstructorDashboard.aspx.designer.cs">
       <DependentUpon>InstructorDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Luqman Test.aspx.cs">
+      <DependentUpon>Luqman Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Luqman Test.aspx.designer.cs">
+      <DependentUpon>Luqman Test.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
